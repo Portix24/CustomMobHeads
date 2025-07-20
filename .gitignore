@@ -7,7 +7,7 @@
 
 # OS-specific files
 .DS_Store
-Thumbs.db
+Thumbs.dbgit branch -m master main
 
 # Logs
 *.log
