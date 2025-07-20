@@ -1,0 +1,28 @@
+# IntelliJ IDEA project settings
+.idea/
+*.iml
+
+# Maven build output
+/target/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+*.tmp
+tmp/
+
+
+# Class and compiled files
+*.class
+
+# Misc
+*.swp
+*.bak
+*.old
+
+# Optional: ignore generated config backups
+*.yml.bak

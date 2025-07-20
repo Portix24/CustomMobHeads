@@ -1,0 +1,456 @@
+axolotl:
+  blue: 100.0
+  cyan: 20.0
+  gold: 20.0
+  lucy: 20.0
+  wild: 20.0
+bat: 10.0
+bee:
+  normal: 20.0
+  pollinated: 20.0
+  angry: 20.0
+  angry_pollinated: 20.0
+blaze: 10.0
+bogged: 6.0
+breeze: 10.0
+camel: 27.0
+cat:
+  all_black: 33.0
+  black: 33.0
+  british_shorthair: 33.0
+  calico: 33.0
+  jellie: 33.0
+  persian: 33.0
+  ragdoll: 33.0
+  red: 33.0
+  siamese: 33.0
+  tabby: 33.0
+  white: 33.0
+cave_spider: 25.0
+chicken:
+  temperate: 5.0
+  warm: 5.0
+  cold: 5.0
+cod: 7.5
+cow:
+  temperate: 5.0
+  warm: 5.0
+  cold: 5.0
+creaking: 100.0
+creeper:
+  normal: 25.0
+  charged: 100.0
+dolphin: 33.0
+donkey: 20.0
+drowned: 7.0
+elder_guardian: 100.0
+ender_dragon: 100.0
+enderman: 2.0
+endermite: 30.0
+evoker: 25.0
+fox:
+  red: 20.0
+  snow: 50.0
+frog:
+  cold: 20.0
+  temperate: 20.0
+  warm: 20.0
+ghast: 6.25
+ghastling: 100.0
+giant: 75.0
+glow_squid: 5.0
+goat:
+  normal: 20.0
+  screaming: 100.0
+guardian: 40.0
+happy_ghast: 100.0
+hoglin: 6.0
+horse:
+  black: 27.0
+  brown: 27.0
+  chestnut: 27.0
+  creamy: 27.0
+  dark_brown: 27.0
+  gray: 27.0
+  white: 27.0
+husk: 6.0
+illusioner: 100.0
+iron_golem: 10.0
+llama:
+  brown: 24.0
+  creamy: 24.0
+  gray: 24.0
+  white: 24.0
+magma_cube: 10.0
+mule: 30.0
+mooshroom:
+  red: 75.0
+  brown: 100.0
+ocelot: 20.0
+#
+#panda:
+#  aggressive: 75.0
+#  brown: 100.0
+#  lazy: 60.0
+#  normal: 30.0
+#  playful: 60.0
+#  weak: 60.0
+#  worried: 60.0
+#
+panda:
+  brown: 100.0
+  weak: 90.0
+  aggressive: 60.0
+  playful: 50.0
+  lazy: 40.0
+  worried: 40.0
+  normal: 30.0
+parrot:
+  blue: 40.0
+  cyan: 40.0
+  gray: 40.0
+  green: 40.0
+  red: 40.0
+phantom: 10.0
+pig:
+  temperate: 5.0
+  warm: 5.0
+  cold: 5.0
+piglin: 7.0
+piglin_brute: 15.0
+pillager: 5.0
+polar_bear: 20.0
+pufferfish: 15.0
+rabbit:
+  black: 26.0
+  black_and_white: 26.0
+  brown: 26.0
+  gold: 26.0
+  salt_and_pepper: 26.0
+  the_killer_bunny: 100.0
+  toast: 100.0
+  white: 26.0
+ravager: 25.0
+salmon: 7.5
+sheep:
+  black: 5.0
+  blue: 5.0
+  brown: 5.0
+  cyan: 5.0
+  gray: 5.0
+  green: 5.0
+  jeb_: 100.0
+  light_blue: 5.0
+  light_gray: 5.0
+  lime: 5.0
+  magenta: 5.0
+  orange: 5.0
+  pink: 5.0
+  purple: 5.0
+  red: 5.0
+  white: 5.0
+  yellow: 5.0
+shulker: 10.0
+silverfish: 7.0
+skeleton: 5.0
+skeleton_horse: 100.0
+slime: 4.0
+sniffer: 50.0
+snow_golem: 10.0
+spider: 5.0
+squid: 5.0
+stray: 8.0
+strider: 15.0
+tadpole: 50.0
+trader_llama:
+  brown: 25.0
+  creamy: 250
+  gray: 25.0
+  white: 25.0
+tropical_fish:
+  tropical_fish: 20.0
+  anemone: 50.0
+  black_tang: 50.0
+  blue_tang: 50.0
+  butterflyfish: 50.0
+  cichlid: 50.0
+  clownfish: 50.0
+  cotton_candy_betta: 50.0
+  dottyback: 50.0
+  emperor_red_snapper: 50.0
+  goatfish: 50.0
+  moorish_idol: 50.0
+  ornate_butterflyfish: 50.0
+  parrotfish: 50.0
+  queen_angelfish: 50.0
+  red_cichlid: 50.0
+  red_lipped_blenny: 50.0
+  red_snapper: 50.0
+  threadfin: 50.0
+  tomato_clownfish: 50.0
+  triggerfish: 50.0
+  yellowtail_parrotfish: 50.0
+  yellow_tang: 50.0
+turtle: 10.0
+vex:
+  normal: 20.0
+  angry: 20.0
+villager:
+  desert:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  jungle:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  plains:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  savanna:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  snow:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  swamp:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  taiga:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+vindicator: 7.0
+wandering_trader: 75.0
+warden: 100.0
+witch: 25.0
+wither:
+  normal: 100.0
+  projectile: 50.0
+  blue_projectile: 30.0
+wither_skeleton: 3.0
+wolf:
+  ashen: 20.0
+  black: 20.0
+  chestnut: 20.0
+  pale: 20.0
+  rusty: 20.0
+  snowy: 50.0
+  spotted: 20.0
+  striped: 20.0
+  woods: 20.0
+  angry_ashen: 20.0
+  angry_black: 20.0
+  angry_chestnut: 20.0
+  angry_pale: 20.0
+  angry_rusty: 20.0
+  angry_snowy: 50.0
+  angry_spotted: 20.0
+  angry_striped: 20.0
+  angry_woods: 20.0
+zoglin: 100.0
+zombie: 5.0
+zombie_horse: 100.0
+zombie_pigman: 4.0
+zombified_piglin: 4.0
+zombie_villager:
+  plains:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  desert:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  jungle:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  savanna:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  snow:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  swamp:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith: 100.0
+  taiga:
+    armorer: 100.0
+    butcher: 100.0
+    cartographer: 100.0
+    cleric: 100.0
+    farmer: 100.0
+    fisherman: 100.0
+    fletcher: 100.0
+    leatherworker: 100.0
+    librarian: 100.0
+    mason: 100.0
+    nitwit: 100.0
+    none: 100.0
+    shepherd: 100.0
+    toolsmith: 100.0
+    weaponsmith:

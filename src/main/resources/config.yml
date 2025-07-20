@@ -1,0 +1,10 @@
+# Main configuration for CustomMobHeads
+
+# If true, all mobs will always drop their head (for testing purposes)
+force-drop-all: false
+
+# If true, dropped heads will have lore with the killer's name
+add-killer-lore: true
+
+# The fallback drop chance (percent) if a mob type is missing in chance_config.yml
+default-drop-chance: 50.0
