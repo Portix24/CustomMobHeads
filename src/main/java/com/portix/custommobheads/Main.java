@@ -107,6 +107,11 @@ public class Main extends JavaPlugin implements Listener {
             //getLogger().info("Returning, because killer is null");
             return;
         }
+
+        if (event.getEntity() instanceof Player) {
+            return;
+        }
+
         Player killer = event.getEntity().getKiller();
         EntityType type = event.getEntityType();
         String typeName = type.name().toLowerCase();
