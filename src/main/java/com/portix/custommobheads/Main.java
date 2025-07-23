@@ -109,6 +109,8 @@ public class Main extends JavaPlugin implements Listener {
         }
 
         if (event.getEntity() instanceof Player) {
+            Player player = (Player) event.getEntity();
+            //getLogger().warning("Skipping player");
             return;
         }
 
@@ -403,7 +405,7 @@ public class Main extends JavaPlugin implements Listener {
 
     ItemStack createCustomHead(String name, String texture, List<Component> lore, String configPath) {
         if (name == null || name.isEmpty()) name = "Mob Head";
-        getLogger().info("Name: " + name);
+        //getLogger().info("Name: " + name);
         if (configPath == null || configPath.isEmpty()) configPath = "mob";
         if (texture == null || texture.isEmpty()) {
             //texture = "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM0MGQ1MGQ3ZDEyOTNiYTE2ZDIzYzZkMDdhYjA2NmNkYzE1NzVjNjhiY2E2OWU5NmYwYmI2ZDFjZTFiZjFiYSJ9fX0=";
