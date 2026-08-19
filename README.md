@@ -1,57 +1,48 @@
-## ⚔️ CustomMobHeads
+## CustomMobHeads
 
-**CustomMobHeads** is a lightweight and configurable Minecraft plugin that enables custom mob head drops with enhanced control. Perfect for server owners who want personalization without sacrificing performance.
+**CustomMobHeads** is a lightweight and configurable Minecraft plugin that enables custom mob head drops with full control. Perfect for server owners who seek this level of extra immersion.
 
 ---
 
-### 🧩 Features
+### Features
 
-- Configurable drop chances through permissions or static values
+- **Mob Variant support**  
+  This plugin differentiates between different mob variants, as follows:
+  - **Temperate / Warm / Cold** Cows, Pigs, and Chickens
+  - **Angry / Pollinated / Angry + Pollinated** Bees  
+  - **Charged / Normal** Creepers  
+  - **Villager Biomes + Professions**  
+  - **Tropical Fish** with 22 named special variants (others drop a generic Tropical Fish head, sorry, I ain't adding all 3,072 variants)  
+  - Easter egg mobs, like the **Toast Rabbit**, **jeb_ Sheep**, and **The Killer Bunny**
+
+- Built-in command for head management (`/gethead`)  
+   - Usage: `/gethead <player> <mob_id> [variant] [subvariant]`
 - Support for custom textures via internal mappings
-- Built-in command for head management (`/gethead`)
 - Lightweight, performance-friendly event system
 - Simple configuration via YML files
 
 ---
 
-### 📥 Download
-
-You can download the latest version from [Modrinth](https://modrinth.com/plugin/custom-mob-heads)
-
-> ✅ Minecraft Java Edition **1.21.5+**  
-> ✅ Tested on Paper **1.21.7**  
-> 🧪 Supports biome-based variants (e.g. cows, pigs, chickens)
-
----
-
-### ⚙️ Configuration Files
+### Configuration Files
 
 | File                | Description                                                                   |
 |---------------------|-------------------------------------------------------------------------------|
-| `chance_config.yml` | Controls individual head drop rates for supported mobs                        |
+| `chance_config.yml` | Controls individual head drop rates for mobs                                  |
 | `sound_config.yml`  | Includes sound overrides for mobs                                             |
 | `translations.yml`  | Provides localized names for mob heads (plugin adds `" Head"` automatically)  |
 | `textures.yml`      | Maps head identifiers to base64-encoded skin textures                         |
 
 ---
 
+### Download
 
-### 📜 License
+You can download the latest version from [Modrinth](https://modrinth.com/plugin/custom-mob-heads)
 
-This project uses a custom license.  
-Please avoid forking or redistributing unless explicitly authorized.
-
----
-
-### 🔧 Development Notes
-
-- Built using **Maven** and **Java 8**
+> Minecraft Java Edition **1.21.5+**  
+> Tested on Paper **1.21.7**  
 
 ---
 
-### 🤝 Contributions
+### License
 
-This plugin is provided as-is and will receive updates only if required for compatibility or major bug fixes.  
-Pull requests may be accepted for critical issues, but active development is not guaranteed.  
-Feature requests can be submitted via Issues and will be reviewed at the developer’s discretion.
-
+This project uses the ARR license.
